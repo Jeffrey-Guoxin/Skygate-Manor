@@ -1,2 +1,2 @@
-# Skygate-Manor
-Life is simpler than expected, if the ideas are wroten down with code
+#amitofo
+This is a practise project, my dream is to work as an web programmer.
