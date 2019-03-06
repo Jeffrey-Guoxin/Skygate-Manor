@@ -1,15 +1,27 @@
 .nav {list-style-type: none;
-  background-color:;
+  background-color:grey;
+  color: ;
   margin: 0;
   padding: 0;
   border: 1px solid red;
   width:100px;
+  height: 100%;
+  position:fixed;
+  overflow: auto;
 }
 .nav li {display:;
 width: px;
+padding: ;
 }
 .nav li a {display:block;
 
-background-color: grey;
+background-color: ;
+color:white;
+text-decoration: none;
+padding: 10px 20px;
+overflow: hidden;
 }
-.nav li .active {background-color: lightgreen;}
+
+.active {background-color: lightgreen;}
+.nav li a:hover:not(.active) {background-color: orange;
+color:black;}
