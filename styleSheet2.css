@@ -2,15 +2,16 @@
 .nav {list-style-type: none;
   background-color:grey;
   color: ;
-  margin-left:;
+  position:absolute;
+  top:0;
   padding: 0;
   border: 1px solid red;
   width:;
-  position:;
+
   overflow: auto;
 }
-.nav li {display:inline;
-width: 200px;
+.nav li {display:inline-block;
+width: 100px;
 padding: ;
 }
 .nav li a {display:block;
