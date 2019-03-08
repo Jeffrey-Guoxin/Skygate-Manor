@@ -10,7 +10,7 @@
 width: px;
 padding: ;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:800px) {
   .nav li {display: block;}
 }
 .nav li a {display:;
