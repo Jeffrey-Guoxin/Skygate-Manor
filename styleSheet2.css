@@ -6,7 +6,7 @@
   width:;
   overflow: auto;
 }
-.nav li {display:;
+.nav li {display:inline;
 width: px;
 padding: ;
 }
