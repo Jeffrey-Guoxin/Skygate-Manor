@@ -1,21 +1,21 @@
 .nav {list-style-type: none;
-  background-color:grey;
-  color: ;
-  margin: 0;
-  padding: 0;
+  background-color:grey;color: ;
+<<<<<<< HEAD
+  margin: 0;padding: 0;
   border: 1px solid red;
-  width:100px;
-  height: 100%;
-  position:fixed;
-  overflow: auto;
+  width:100px;height: 100%;
+  position:fixed;overflow: auto;
+=======
+  margin: 0;padding: 0;border: 1px solid red;
+  width:100px;height: 100%;
+  position:absolute;overflow: auto;
+>>>>>>> 879500fcc3f6e8e1dc89775ed91cfc8d822afa09
 }
 .nav li {display:;
 width: px;
 padding: ;
 }
-.nav li a {display:block;
-
-background-color: ;
+.nav li a {display:block;background-color: ;
 color:white;
 text-decoration: none;
 padding: 10px 20px;
@@ -25,3 +25,5 @@ overflow: hidden;
 .active {background-color: lightgreen;}
 .nav li a:hover:not(.active) {background-color: orange;
 color:black;}
+
+.container {padding: 0px 5px; margin-left: 100px; position: ;top: 50px;1float:left;}
