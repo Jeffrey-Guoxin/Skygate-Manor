@@ -3,7 +3,6 @@
   margin: 0;padding: 0;border: 1px solid red;
   width:100px;height: 100%;
   position:absolute;overflow: auto;
->>>>>>> 879500fcc3f6e8e1dc89775ed91cfc8d822afa09
 }
 .nav li {display:;
 width: px;
@@ -19,5 +18,7 @@ overflow: hidden;
 .active {background-color: lightgreen;}
 .nav li a:hover:not(.active) {background-color: orange;
 color:black;}
+/*dropdown menu bar */
+
 
 .container {padding: 0px 5px; margin-left: 100px; position: ;top: 50px;1float:left;}

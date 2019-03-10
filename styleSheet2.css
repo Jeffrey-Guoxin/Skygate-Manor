@@ -4,11 +4,12 @@
   position:;  top:0;
   padding: 0;  border: 1px solid red;
   width:;
-  overflow: auto;
+  overflow: visible;
 }
 .nav li {display:inline-block;
 width: px;
 padding: ;
+overflow: visible;
 }
 @media screen and (max-width:450px) {
   .nav li {display: block;}
@@ -23,4 +24,10 @@ overflow: hidden;
 .active {background-color: lightgreen;}
 .nav li a:hover:not(.active) {background-color: orange;
 color:black;}
+
+.dropdown {display:inline-block;; position: relative;; overflow: visible;}
+.dropdown_content {display:none; position:absolute;overflow:visible; z-index:1;}
+.dropdown_content a {background-color: red;}
+.dropdown:hover .dropdown_content {display:block; position:;}
+
 .container{}
