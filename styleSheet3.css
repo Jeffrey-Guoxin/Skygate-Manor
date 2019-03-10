@@ -1,4 +1,4 @@
-/*this is horizental meu bar using li inline-block*/
+/*this is horizental meu bar*/
 .nav {list-style-type: none;
   background-color:grey;  color: ;
   position:;  top:0;
@@ -6,12 +6,14 @@
   width:;
   overflow: auto;
 }
-.nav li {display:inline-block;
-width: px;
+.nav li {;
+width: ;
 padding: ;
+float: left;
 }
 @media screen and (max-width:450px) {
-  .nav li {display: block;}
+  .nav li {display: ;float: none;
+  }
 }
 .nav li a {display:block;
 background-color: ;color:white;
