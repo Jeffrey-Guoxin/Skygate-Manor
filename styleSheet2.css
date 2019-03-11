@@ -4,12 +4,12 @@
   position:;  top:0;
   padding: 0;  border: 1px solid red;
   width:;
-  overflow: visible;
+  overflow: ;
 }
 .nav li {display:inline-block;
 width: px;
 padding: ;
-overflow: visible;
+overflow:;
 }
 @media screen and (max-width:450px) {
   .nav li {display: block;}
@@ -18,16 +18,16 @@ overflow: visible;
 background-color: ;color:white;
 text-decoration: none;
 padding: 10px 20px;
-overflow: hidden;
+overflow:;
 }
 
 .active {background-color: lightgreen;}
 .nav li a:hover:not(.active) {background-color: orange;
 color:black;}
 
-.dropdown {display:inline-block;; position: relative;; overflow: visible;}
-.dropdown_content {display:none; position:absolute;overflow:visible; z-index:1;}
-.dropdown_content a {background-color: red;}
+.dropdown {display:;; position: relative;; overflow:;}
+.dropdown_content {background-color: red;display:none; position:absolute;overflow:;}
+.dropdown_content {}
 .dropdown:hover .dropdown_content {display:block; position:;}
 
 .container{}
