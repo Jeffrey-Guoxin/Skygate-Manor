@@ -5,7 +5,7 @@
   position:;  top:0;
   padding: 0;  border: 1px solid red;
   width:;
-  overflow: auto;
+  visibility: hidden;
 }
 .nav li {;
 width: ;
